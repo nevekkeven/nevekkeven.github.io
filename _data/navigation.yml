@@ -14,7 +14,7 @@
     en: /pages/en/projects/vehicle-detection.html
 - key: breadth_first_search_with_states
   name:
-    fr: Breadth-First_Search avec gestion des états
+    fr: Breadth-First Search avec gestion des états
     en: Breadth-First Search with state tracking.
   link:
     fr: /pages/fr/projects/breadth-first-search-with-states.html
