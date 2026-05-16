@@ -1,4 +1,6 @@
 - name: Home
   link: /
-- name: About
-  link: /about.html
+- name: Vehicle detection
+  link: /projects/vehicle-detection.html
+- name: Breadth-First Search with states
+  link: /projects/breadth-first-search-with-states.html
