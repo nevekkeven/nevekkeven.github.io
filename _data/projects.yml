@@ -1,0 +1,15 @@
+vehicle_detection:
+  title:
+    fr: Détection de véhicules
+    en: Vehicle Detection
+  description:
+    fr: Projet de détection de véhicules à partir d'une vidéo.
+    en: Vehicle detection project from video input.
+  video: /videos/vehicle_detection.mp4
+breadth_first_search_with_states:
+  title:
+    fr: Breadth-First Search avec des états
+    en: Breadth-First Search with states
+  description:
+    fr: Breadth-first search avec gestion des états.
+    en: Breadth-first search with state tracking.

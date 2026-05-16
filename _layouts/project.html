@@ -1,15 +1,27 @@
+{% assign project = site.data.projects[page.project_id] %}
 <!doctype html>
 <html>
 <head>
     <meta charset="utf-8">
-    <title>{{ page.title }}</title>
+    <title>{{ project.title[page.lang] }}</title>
     <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
 </head>
 <body>
+{% include languages.html %}
 {% include navigation.html %}
-<h1>{{ page.title }}</h1>
-<h2>Repository</h2>
-<a href="{{ page.repository }}">{{ page.repository }}</a>
+<h1>{{ project.title[page.lang] }}</h1>
+<h2>Git repository</h2>
+<div>
+    <a href="{{ page.repository }}">{{ page.repository }}</a>
+</div>
+{% if project.video %}
+    <h2>Demo</h2>
+    <div>
+        <video controls width="800">
+            <source src="{{ project.video | relative_url }}" type="video/mp4">
+        </video>
+    </div>
+{% endif %}
 <div>
 {{ content }}
 </div>
