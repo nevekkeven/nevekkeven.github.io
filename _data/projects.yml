@@ -1,3 +1,10 @@
+global:
+  git_repository:
+    fr: Dépôt Git
+    en: Git Repository
+  demo:
+    fr: Démo
+    en: Demo
 vehicle_detection:
   title:
     fr: Détection de véhicules
@@ -6,6 +13,7 @@ vehicle_detection:
     fr: Projet de détection de véhicules à partir d'une vidéo.
     en: Vehicle detection project from video input.
   video: /videos/vehicle_detection.mp4
+  repository: https://github.com/nevekkeven/vehicle-detection
 breadth_first_search_with_states:
   title:
     fr: Breadth-First Search avec des états

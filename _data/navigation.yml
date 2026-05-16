@@ -3,19 +3,19 @@
     fr: Accueil
     en: Home
   link:
-    fr: /pages/fr/
-    en: /
+    fr: /fr/
+    en: /en/
 - key: vehicle_detection
   name:
     fr: Détection de véhicules
     en: Vehicle Detection
   link:
-    fr: /pages/fr/projects/vehicle-detection.html
-    en: /pages/en/projects/vehicle-detection.html
+    fr: /fr/projects/vehicle-detection.html
+    en: /en/projects/vehicle-detection.html
 - key: breadth_first_search_with_states
   name:
-    fr: Breadth-First Search avec gestion des états
-    en: Breadth-First Search with state tracking.
+    fr: Breadth-First Search avec gestion des états (En cours)
+    en: Breadth-First Search with state tracking (In progress)
   link:
-    fr: /pages/fr/projects/breadth-first-search-with-states.html
-    en: /pages/en/projects/breadth-first-search-with-states.html
+    fr: /fr/projects/breadth-first-search-with-states.html
+    en: /en/projects/breadth-first-search-with-states.html
