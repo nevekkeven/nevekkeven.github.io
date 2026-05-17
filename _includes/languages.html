@@ -1,2 +1,14 @@
-<a href="{{ '/fr/' | relative_url }}"{% if page.lang == 'fr' %} class="current"{% endif %}>Français</a>
-<a href="{{ '/en/' | relative_url }}"{% if page.lang == 'en' %} class="current"{% endif %}>English</a>
+{% assign fr_url = page.url %}
+{% assign en_url = page.url %}
+
+{% if page.lang == 'fr' %}
+    {% assign en_url = page.url | replace_first: '/fr/', '/en/' %}
+{% elsif page.lang == 'en' %}
+    {% assign fr_url = page.url | replace_first: '/en/', '/fr/' %}
+{% else %}
+    {% assign fr_url = '/fr/' %}
+    {% assign en_url = '/en/' %}
+{% endif %}
+
+<a href="{{ fr_url | relative_url }}"{% if page.lang == 'fr' %} class="current"{% endif %}>Français</a>
+<a href="{{ en_url | relative_url }}"{% if page.lang == 'en' %} class="current"{% endif %}>English</a>
